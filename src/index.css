@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: white !important; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.card{
+  border: none ;
+  box-shadow: 4%;
+  opacity: 90%;
+  margin: 15px;
+}
+.card:hover{
+  transform: scale(1.03);
+  opacity: 100%;
+  border: 1 solid grey;
+  box-shadow:5px 5px 5px 5px grey ;
 }
