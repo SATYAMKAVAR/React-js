@@ -65,7 +65,7 @@ export default function StudentAdd() {
                                 headers: { "Content-Type": "application/json" }
                             }
                         )
-                            .then((res) => { navigate("/Students") });
+                            .then(() => { navigate("/Students") });
                     }
                     else {
                         fetch("https://64da0fe4e947d30a260ab3e6.mockapi.io/Student",

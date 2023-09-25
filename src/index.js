@@ -14,6 +14,7 @@ import StudentDetail  from  './Layout/StudentDetail';
 import Form from './Form';
 import Textform from './TextForm';
 import StudentAdd from './Layout/StudentAdd';
+import Display from './Display';
 // import StudentEdit from './Layout/StudentEdit';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +25,8 @@ root.render(
       {/* <Header />
       <Content />
       <Display /> */}
-      <BrowserRouter>
+      <Textform />
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -35,10 +37,10 @@ root.render(
             <Route path="/StudentAdd" element={<StudentAdd />}/>
             <Route path="/StudentDetail/:id" element={<StudentDetail />} />
             <Route path="/StudentEdit/:id" element={<StudentAdd/>} />
-            {/* S<Route path="/StudentEdit/:id" element={<StudentEdit />} /> */}
+      ========<Route path="/StudentEdit/:id" element={<StudentEdit />} /> ================
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <UseEffectDemo /> */}
         {/* <BrowserRouter>
           <Routes>
