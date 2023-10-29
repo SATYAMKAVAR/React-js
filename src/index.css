@@ -17,6 +17,7 @@ code {
   box-shadow: 4%;
   opacity: 90%;
   margin: 15px;
+  transition: all 0.4s;
 }
 .card:hover{
   transform: scale(1.03);

@@ -25,8 +25,8 @@ root.render(
       {/* <Header />
       <Content />
       <Display /> */}
-      <Textform />
-      {/* <BrowserRouter>
+      {/* <Textform /> */}
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -37,10 +37,10 @@ root.render(
             <Route path="/StudentAdd" element={<StudentAdd />}/>
             <Route path="/StudentDetail/:id" element={<StudentDetail />} />
             <Route path="/StudentEdit/:id" element={<StudentAdd/>} />
-      ========<Route path="/StudentEdit/:id" element={<StudentEdit />} /> ================
+      {/* ========<Route path="/StudentEdit/:id" element={<StudentEdit />} /> ================ */}
           </Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       {/* <UseEffectDemo /> */}
         {/* <BrowserRouter>
           <Routes>
