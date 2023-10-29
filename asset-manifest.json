@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SATYAMKAVAR/React-js.git/static/css/main.11c5a063.css",
+    "main.js": "/SATYAMKAVAR/React-js.git/static/js/main.cd8d1b29.js",
+    "index.html": "/SATYAMKAVAR/React-js.git/index.html",
+    "main.11c5a063.css.map": "/SATYAMKAVAR/React-js.git/static/css/main.11c5a063.css.map",
+    "main.cd8d1b29.js.map": "/SATYAMKAVAR/React-js.git/static/js/main.cd8d1b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11c5a063.css",
+    "static/js/main.cd8d1b29.js"
+  ]
+}
